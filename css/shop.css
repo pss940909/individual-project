@@ -1,0 +1,67 @@
+@import url(reset.css);
+@import url(utilities.css);
+@import url(header.css);
+@import url(banner_bg.css);
+@import url(footer.css);
+
+/* ----------------------篩選區 -------------------*/
+.select_area {
+  display: flex;
+  margin-top: 64px;
+}
+.select_area li {
+  flex-grow: 1;
+  border: 1px solid #5b5353;
+  margin-right: 10px;
+}
+.select_area li:last-child {
+  margin-right: 0;
+}
+.select_area a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.select_area a:hover {
+  background-color: #5b5353;
+  color: white;
+}
+/* ----------------------產品列表 -------------------*/
+.product_area {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product_item {
+  width: 380px;
+  border: 1px solid #5b5353;
+  box-sizing: border-box;
+  margin: 10px;
+  position: relative;
+}
+.product_item img {
+  width: 100%;
+}
+
+.product_item .cart {
+  font-size: 30px;
+  color: black;
+  text-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.product_detail {
+  padding: 15px;
+}
+.product_name {
+  font-size: 21px;
+}
+.product_price {
+  font-size: 14px;
+}

@@ -1,0 +1,33 @@
+/* --------------網頁整體設定-------------- */
+html {
+  color: #5b5353;
+}
+a {
+  color: #5b5353;
+  text-decoration: none;
+}
+
+body {
+  font-family: Barlow;
+  line-height: 1.6;
+}
+
+/* ----------------utilities ----------------*/
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.ml-2 {
+  margin-left: 20px;
+}
+
+.sub_title {
+  font-size: 54px;
+  text-align: center;
+}
+/* ----------------swiper ----------------*/
+.swiper {
+  width: 600px;
+  height: 300px;
+}

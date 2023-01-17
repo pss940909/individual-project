@@ -1,0 +1,41 @@
+/* -----------------header----------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+h1 a img {
+  width: 120px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  font-family: Barlow;
+  font-size: 16px;
+  /* outline: 1px solid tomato; */
+}
+.menu li {
+  padding: 0 20px;
+  /* outline: 1px solid red; */
+  width: auto;
+  flex-grow: 1;
+  /* transition: all 0.5s; */
+}
+.menu li:hover {
+  background-color: #5b5353;
+}
+
+.menu a {
+  display: block;
+  line-height: 120px;
+  font-weight: 500;
+  /* transition: all 0.5s; */
+}
+.menu a:hover {
+  color: #aea7a7;
+}

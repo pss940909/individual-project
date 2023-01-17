@@ -1,0 +1,36 @@
+.grid-item {
+  width: 350px;
+  outline: 1px solid green;
+  margin: 20px;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.test {
+  display: flex;
+  flex-direction: row-reverse;
+  outline: 5px solid red;
+}
+.test_img {
+  width: 50%;
+}
+.test_img img {
+  display: block;
+  height: 100%;
+}
+.test_text {
+  padding: 30px;
+  width: 50%;
+}
+.test_text form {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 500px;
+}

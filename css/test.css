@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,700,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-color: #ccc;
+  background: linear-gradient(95deg, #7bf 50%, transparent 50%) center center /
+      100% 100%,
+    url("https://picsum.photos/1200/600?random=10") right center / auto 100%;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  margin: auto;
+}
+.banner-txt {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  outline: 10px solid red;
+  margin-left: 50px;
+}
+.banner-txt img {
+  margin-bottom: 30px;
+}

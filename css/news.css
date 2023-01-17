@@ -1,0 +1,24 @@
+@import url(reset.css);
+@import url(utilities.css);
+@import url(header.css);
+@import url(banner_bg.css);
+@import url(footer.css);
+
+.grid {
+  height: auto;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.grid-item {
+  width: 30%;
+  border: 1px solid #ccc;
+  margin: 50px 15px;
+  border-radius: 5px;
+}
+.grid-item img {
+  width: 100%;
+  display: block;
+}
+.card-content {
+  padding: 10px;
+}
